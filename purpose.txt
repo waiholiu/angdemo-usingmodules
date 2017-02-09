@@ -1,0 +1,1 @@
+demonstrate how you can structure your solution by putting components into modules and loading them

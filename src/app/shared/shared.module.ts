@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TextboxgridComponent } from '../textboxgrid/textboxgrid.component';
-import { LabelboxComponent } from '../labelbox/labelbox.component'
+import { LabelboxComponent } from '../labelbox/labelbox.component';
+import { InboxComponent } from './inbox/inbox.component';
+
+
 
 
 @NgModule({
@@ -10,7 +13,8 @@ import { LabelboxComponent } from '../labelbox/labelbox.component'
   ],
   declarations: [
     TextboxgridComponent,
-    LabelboxComponent
+    LabelboxComponent,
+    InboxComponent
   ]
   ,
   exports: [

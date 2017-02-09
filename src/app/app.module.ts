@@ -10,6 +10,7 @@ import { ExternalModule } from './external/external.module';
 import { ThirdComponent } from './third/third.component';
 import { SharedModule } from './shared/shared.module';
 import { FirstdirDirective } from './firstdir.directive';
+import { InboxComponent } from './shareddd/inbox/inbox.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { FirstdirDirective } from './firstdir.directive';
     AppComponent,
     FirstComponent,
     ThirdComponent,
-    FirstdirDirective
+    FirstdirDirective,
+    InboxComponent
   ],
   imports: [
     BrowserModule,
